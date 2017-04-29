@@ -6,10 +6,10 @@
   one chat is visible at any given time. Used in the mobile build:
   `converse-mobile.js` and makes the unread messages counter possible there.
   [jcbrand]
-- Show unread messages next to roster contacts. [jcbrand]
 - API change: the `message` event now returns a data object with `stanza` and
   `chatbox` attributes, instead of just the stanza. [jcbrand]
 - #567 Unreaded message count reset on page load [novokrest]
+- #754 Show unread messages next to roster contacts. [jcbrand]
 
 ## 3.0.2 (2017-04-23)
 
